@@ -7,6 +7,8 @@
   font-family: "Roboto Condensed", sans-serif;
 }
 
+/*!=================================Hero==================================================!*/
+
 #hero {
   height: 20vh;
 }
@@ -140,4 +142,53 @@
 .card img {
   aspect-ratio: 1/1;
   object-fit: cover;
+}
+
+/*!=================================Courses==============================================!*/
+
+#search-sec {
+  background: url(https://img.freepik.com/free-photo/laptop-with-glowing-screen-table-dark-top-view-copy-space_169016-51607.jpg?t=st=1733228389~exp=1733231989~hmac=e2597e2650395157402c0ff5f0e59f13bdc7b5ff7e7eff315a49ee328842debe&w=1380);
+  padding-block: 4rem;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+}
+
+.search-sec {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 50px;
+  color: white;
+}
+
+.search-sec p {
+  color: lightgray;
+}
+
+.courses-inp {
+  display: flex;
+  gap: 20px;
+}
+
+.category {
+  padding: 10px 40px 10px 0px;
+  width: 100%;
+}
+#inp {
+  padding: 10px 50px 10px 0px;
+}
+
+.courses-btn {
+  padding: 8px 80px;
+  background-color: #72d5cd;
+  border: none;
+  color: white;
+  cursor: pointer;
+  transition: 0.4s all ease;
+}
+
+.courses-btn:hover {
+  background-color: #28746d;
 }

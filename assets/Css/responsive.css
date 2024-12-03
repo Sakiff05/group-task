@@ -1,51 +1,107 @@
 @media (min-width: 768px) and (max-width: 992px) {
-    .upper-header{
-        display: flex;
-        flex-direction: column;
-    }
-    .header{
-        display: flex;
-        flex-direction: column;
-    }
+  .upper-header {
+    display: flex;
+    flex-direction: column;
+  }
+  .header {
+    display: flex;
+    flex-direction: column;
+  }
+  .search-sec{
+    display: flex;
+    gap: 20px;
+  }
+  .search-sec h1{
+    font-size: 15px;
+  }
+  .search-sec p{
+    font-size: 15px;
+  }
+  .courses-inp {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+  }
+  #category {
+    padding: 10px 20px;
+  }
+  #inp {
+    padding: 8px 20px;
+  }
+  .courses-btn {
+    padding: 8px 20px;
+  }
 }
 
 @media (min-width: 576px) and (max-width: 768px) {
-    .upper-header{
-        display: flex;
-        flex-direction: column;
-    }
-    .upper-header-left{
-        display: flex;
-        flex-direction: column;
-    }
-    .nav-list{
-        display: none !important;
-    }
+  .upper-header {
+    display: flex;
+    flex-direction: column;
+  }
+  .upper-header-left {
+    display: flex;
+    flex-direction: column;
+  }
+  .nav-list {
+    display: none !important;
+  }
 
-    .fa-bars{
-        display: block !important;
-    }
-    
+  .fa-bars {
+    display: block !important;
+  }
+  .courses-inp {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+  }
 }
 
 @media (max-width: 576px) {
-    .upper-header{
-        display: flex;
-        flex-direction: column;
-    }
-    .upper-header-left{
-        display: flex;
-        flex-direction: column;
-    }
-    .header-right ul{
-        display: none;
-    }
+  .upper-header {
+    display: flex;
+    flex-direction: column;
+  }
+  .upper-header-left {
+    display: flex;
+    flex-direction: column;
+  }
+  .header-right ul {
+    display: none;
+  }
 
-    .nav-list{
-        display: none !important;
-    }
+  .nav-list {
+    display: none !important;
+  }
 
-    .fa-bars{
-        display: block !important;
-    }
+  .fa-bars {
+    display: block !important;
+  }
+
+  .search-sec{
+    display: flex;
+    gap: 20px;
+  }
+  .search-sec h1{
+    font-size: 15px;
+  }
+  .search-sec p{
+    font-size: 15px;
+  }
+  .courses-inp {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+  }
+  #category {
+    padding: 10px 20px;
+  }
+  #inp {
+    padding: 8px 20px;
+  }
+  .courses-btn {
+    padding: 8px 20px;
+  }
 }
