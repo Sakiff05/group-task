@@ -7,6 +7,8 @@
   font-family: "Roboto Condensed", sans-serif;
 }
 
+/*!=================================Hero==================================================!*/
+
 #hero {
   height: 20vh;
 }
@@ -29,18 +31,18 @@
 }
 
 /*!=================================Header==================================================!*/
-.upper{
+.upper {
   border-bottom: 1px solid lightgray;
 }
 
-.upper-header{
+.upper-header {
   display: flex;
   align-items: center;
   justify-content: space-between;
   padding: 8px;
 }
 
-.upper-header-left{
+.upper-header-left {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -57,7 +59,7 @@
   margin: 0px !important;
 }
 
-.upper-header-right{
+.upper-header-right {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -70,34 +72,34 @@
   transition: 0.2s all ease;
 }
 
-.upper-header-right i:hover{
+.upper-header-right i:hover {
   color: lightblue;
 }
 
-.upper-a{
+.upper-a {
   text-decoration: none;
   color: rgb(111, 111, 111);
 }
 
-.upper-a:hover{
+.upper-a:hover {
   text-decoration: underline;
   color: lightblue;
 }
 
 /*?================================?*/
 
-.header-wrapper{
+.header-wrapper {
   box-shadow: 0 0 4px 0 rgba(0, 0, 0, 0.08), 0 2px 4px 0 rgba(0, 0, 0, 0.12);
 }
 
-.header{
+.header {
   display: flex;
   align-items: center;
   justify-content: space-between;
   padding: 1rem;
 }
 
-.header-right ul{
+.header-right ul {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -105,21 +107,70 @@
   gap: 25px;
 }
 
-.header-right li{
+.header-right li {
   list-style: none;
 }
 
-.header-right li a{
+.header-right li a {
   text-decoration: none;
   color: rgb(111, 111, 111);
   transition: 0.2s all ease;
   font-weight: bold;
 }
 
-.header-right li a:hover{
+.header-right li a:hover {
   color: black;
 }
 
-.fa-bars{
+.fa-bars {
   display: none !important;
+}
+
+/*!=================================Courses==============================================!*/
+
+#courses {
+  background: url(https://img.freepik.com/free-photo/laptop-with-glowing-screen-table-dark-top-view-copy-space_169016-51607.jpg?t=st=1733228389~exp=1733231989~hmac=e2597e2650395157402c0ff5f0e59f13bdc7b5ff7e7eff315a49ee328842debe&w=1380);
+  padding-block: 4rem;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+}
+
+.courses{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 50px;
+  color: white;
+}
+
+.courses p{
+  color: lightgray;
+}
+
+.courses-inp{
+  display: flex;
+  gap: 20px;
+}
+
+.category{
+  padding: 10px 40px 10px 0px;
+  width: 100%;
+}
+#inp{
+  padding: 10px 50px 10px 0px;
+}
+
+.courses-btn{
+  padding: 8px 80px;
+  background-color: #72D5CD;
+  border: none;
+  color: white;
+  cursor: pointer;
+  transition: 0.4s all ease;
+}
+
+.courses-btn:hover{
+  background-color: #28746d;
 }
