@@ -192,3 +192,16 @@
 .courses-btn:hover {
   background-color: #28746d;
 }
+
+.recent-img {
+  width: 50px;
+}
+
+.recent-img img {
+  width: 100%;
+  aspect-ratio: 1/1;
+}
+
+.school-img img {
+  width: 100%;
+}
