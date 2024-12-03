@@ -144,9 +144,9 @@
   object-fit: cover;
 }
 
-/*!=================================Courses==============================================!*/
+/*!=================================search-section==============================================!*/
 
-#search-sec {
+#courses {
   background: url(https://img.freepik.com/free-photo/laptop-with-glowing-screen-table-dark-top-view-copy-space_169016-51607.jpg?t=st=1733228389~exp=1733231989~hmac=e2597e2650395157402c0ff5f0e59f13bdc7b5ff7e7eff315a49ee328842debe&w=1380);
   padding-block: 4rem;
   background-size: cover;
@@ -154,7 +154,7 @@
   background-position: 50% 50%;
 }
 
-.search-sec {
+.courses{
   display: flex;
   align-items: center;
   justify-content: center;
@@ -163,7 +163,7 @@
   color: white;
 }
 
-.search-sec p {
+.courses p{
   color: lightgray;
 }
 
