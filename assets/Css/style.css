@@ -193,6 +193,68 @@
   background-color: #28746d;
 }
 
+/*!=================================Comments==============================================!*/
+
+#comments {
+  background-color: rgb(238, 238, 238);
+  margin-top: 100px;
+  padding: 2rem;
+}
+
+.comment-p {
+  color: rgb(142, 142, 142);
+  text-align: center;
+  width: 50%;
+}
+
+/*!=================================Popular=============================================!*/
+
+#popular {
+  margin-top: 100px;
+}
+
+.popular {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 30px;
+}
+
+.popular-img {
+  width: 300px;
+}
+
+/*!=================================Feel=============================================!*/
+
+#feel {
+  background-color: #72d5cd;
+  margin-top: 100px;
+  padding: 2.5rem;
+}
+
+.feel {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.feel-left {
+  color: white;
+}
+
+.feel-btn {
+  border: none;
+  padding: 15px 30px;
+  background-color: #555555;
+  color: white;
+  transition: 0.4s all ease;
+}
+
+.feel-btn:hover {
+  background-color: #c94141;
+}
+
 .recent-img {
   width: 50px;
 }

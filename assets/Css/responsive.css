@@ -56,6 +56,12 @@
     justify-content: center;
     flex-direction: column;
   }
+  .feel{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+  }
 }
 
 @media (max-width: 576px) {
@@ -103,5 +109,11 @@
   }
   .courses-btn {
     padding: 8px 20px;
+  }
+  .feel{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
   }
 }
