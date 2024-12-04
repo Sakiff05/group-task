@@ -302,6 +302,10 @@
   font-size: 55px;
 }
 
+#register{
+  margin-bottom: 30px;
+}
+
 .register {
   display: flex;
   align-items: center;
