@@ -280,3 +280,77 @@
   height: 100%;
   object-fit: cover;
 }
+
+/*!=================================Register==========================================!*/
+
+#register-img {
+  background: url(https://img.freepik.com/free-photo/high-angle-shot-glass-coffee-laptop_181624-270.jpg?t=st=1733298382~exp=1733301982~hmac=f8a8b1b70ac8946ddc9d7fa19c129e17dadc28cc276a6f4eb58804005d5afd86&w=1800);
+  padding-block: 4rem;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+}
+
+.register-img {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+}
+
+.register-img h1 {
+  font-size: 55px;
+}
+
+.register {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 5rem;
+}
+
+.register form {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.register-inp {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  width: 100%;
+}
+
+.form-group input {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 10px 280px 10px 0px;
+}
+
+.register-left,
+.register-right {
+  width: 48%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.register-btn{
+  margin-top: 30px;
+  border: none;
+  border-bottom: 2px solid #498c86;
+  background-color: #72D5CD;
+  color: white;
+  padding: 8px 80px;
+  cursor: pointer;
+  transition: 0.4s all ease;
+}
+
+.register-btn:hover{
+  background-color: #28746d;
+}
