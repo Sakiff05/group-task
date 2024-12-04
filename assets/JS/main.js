@@ -9,5 +9,5 @@ signInBtn.addEventListener("click", () => {
 
 closeOverlay.addEventListener("click", () => {
   overlay.style.display = "none";
-  document.body.style.overflow = "scroll";
+  document.body.style.overflowY = "scroll";
 });

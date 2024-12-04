@@ -318,3 +318,12 @@
   top: 1rem;
   right: 1rem;
 }
+
+.footer {
+  padding-top: 3rem;
+  /* padding-bottom: 12rem; */
+}
+
+.footer-chevron {
+  padding-right: 1rem;
+}
